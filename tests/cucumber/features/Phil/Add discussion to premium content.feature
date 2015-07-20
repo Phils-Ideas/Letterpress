@@ -1,3 +1,4 @@
+@ignore
 Feature: Discuss premium content
 
   As a user
