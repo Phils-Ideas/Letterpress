@@ -34,7 +34,9 @@ var parse = function(fileName) {
         gherkinLines += ('\t\t\t' + lines[line] + '\n');
       }
     }
-    fs.writeFile(fileName.replace('markdown', 'features').replace('.md', '.feature'), gherkinLines, function(err) {
+    var gherkinFile = fileName.replace('public/description', 'tests/cucumber/features').replace('.md', '.feature');
+    console.log(gherkinFile);
+    fs.writeFile(gherkinFile, gherkinLines, function(err) {
     });
   });
 };
@@ -47,4 +49,4 @@ function watchFolder(folderName) {
     }
   });
 }
-watchFolder('/Projects/Letterpress/public/description/');
+watchFolder('/Projects/Letterpress/public/description/Users/');
