@@ -35,11 +35,11 @@
 }
 
 .landing-page header a[title="Try It"] {
-    background-color: gray;
+    background-color: #0086bb;
 }
 
 .landing-page header a[title="Buy It"] {
-    background-color: orange;
+    background-color: #0086bb;
 }
 
 .landing-page .toc {
