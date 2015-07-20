@@ -1,7 +1,7 @@
 @ignore
 Feature: Create account
-  
-  As a paying user
+
+  As a paying customer
   I want to authenticate
   So that I can access the content I paid for
 

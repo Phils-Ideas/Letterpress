@@ -27,5 +27,9 @@
         "text": "Looks like there was an issue with your payment. Don't worry we'll retry 3 times. You might want to check your Stripe account."
       }
     }
+  },
+  "kadira": {
+    "appId": "fjMvbfksW4HQokxcQ",
+    "appSecret": "da9d5f90-2b68-4810-a586-dc8238b811a3"
   }
 }
