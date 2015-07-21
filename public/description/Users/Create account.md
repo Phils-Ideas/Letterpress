@@ -8,7 +8,6 @@ So that I can access the content I paid for
 1. I just paid for content and received an enrollment email
 2. I open the account creation link in my email
 3. I am able to create my account
-3. I am able to access my content
 
 ##Login after enrollment
 1. I have already created an account

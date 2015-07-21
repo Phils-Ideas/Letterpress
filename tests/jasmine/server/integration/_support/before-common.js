@@ -1,3 +1,0 @@
-beforeAll(function () {
-  VelocityHelpers.exportGlobals();
-});

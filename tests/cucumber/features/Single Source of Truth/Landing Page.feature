@@ -14,4 +14,4 @@ Feature: Landing Page for the Source of Truth
           """
     When  a user navigates to the landing page
     Then  they see the heading "My Content"
-    And   they see the cover image from "/cover.jps"
+    And   they see the cover image from "/cover.jpg"
