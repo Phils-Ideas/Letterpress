@@ -8,7 +8,7 @@ Feature: Landing Page for the Source of Truth
 
           ![Cover](/cover.jpg "Cover")
 
-          *Learn how to do everything*
+          *Learn how to do *
 
           [Preview](/preview "Preview Chapter") [Buy](/buy "Buy Content")
           """

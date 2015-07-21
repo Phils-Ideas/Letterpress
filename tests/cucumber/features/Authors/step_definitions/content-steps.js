@@ -10,10 +10,7 @@ module.exports = function () {
   });
 
   this.When(/^a user navigates to the landing page$/, function () {
-    return this.client.
-      url(process.env.ROOT_URL).
-      waitForExist('body *').
-      waitForVisible('body *');
+    return this.client.getText('header h1').should.become('My Content');
   });
 
   this.Then(/^they see the heading "([^"]*)"$/, function (heading) {
